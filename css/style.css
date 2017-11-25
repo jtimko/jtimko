@@ -1,0 +1,131 @@
+body {
+    font-family: 'Permanent Marker', cursive;
+}
+h2 {
+    font-size: 1rem;
+}
+a:link {
+    color: #fff;
+}
+#header {
+    position: relative;
+    background-color: #171717;
+    height: 700px;
+}
+#header::before{
+    content: ' ';
+    background: url('img/sc.jpg') no-repeat fixed center center rgba(0,0,0,0.5);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    opacity: .4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+#top {
+    position: relative;
+    background: rgba(23,23,23,0.7);
+    padding: 10px;
+    z-index: 2;
+    color: #fff;
+}
+#landing {
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    color: #fff;
+    padding-top: 250px;
+}
+#intro {
+    background-color: #fff;
+    font-size: 26px;
+    height: 300px;
+    padding-top: 50px;
+    text-align: center;
+}
+#jobs {
+    background-color: #56BECC;
+    height: 300px;
+}
+#joblogo {
+    height: 100px;
+    text-align: center;
+}
+#work {
+    background: #171717;
+    height: 650px;
+}
+#lt {
+    position: relative;
+    margin: 0 auto;
+}
+#laptop {
+    background: #171717;
+    position: absolute;
+    text-align: center;
+    padding: 15px;
+    height: 200px;
+    width: 200px;
+    top: -100px;
+    left: 25%;
+}
+#workThumb {
+    padding: 20px;
+    margin-top: 75px;
+}
+#workThumb img {
+    width: 100%;
+    height: 100%;
+}
+#lf, #mathews, #nd {
+    overflow: hidden;
+    height: 300px;
+    transition: 1s ease-in-out;
+}
+#lf:hover, #mathews:hover, #nd:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+#testimonal p {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+#jobs a:link {
+    color: #000;
+}
+#footer {
+    background: #171717;
+}
+.logos {
+    font-size: 100px;
+}
+.jobSize { 
+    font-size: 14px; 
+}
+
+.borderJobs {
+    border-top: 1px solid #000;
+    width: 50%;
+    margin: 10px auto 15px;
+}
+.spin {
+    transition: 1s ease;
+}
+.spin:hover {
+    transform: rotate(360deg);
+}
+.logoPhoto {
+    background-color: #56BECC;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    top: -100px;
+    left: 25%;
+}
+@keyframes drive {
+    from {transform: translateX(0);}
+    to {transform: translateX(1200px);}
+}
