@@ -7,6 +7,9 @@ h2 {
 a:link {
     color: #fff;
 }
+a:visited {
+    color: #fff;
+}
 #header {
     position: relative;
     background-color: #171717;
@@ -14,7 +17,7 @@ a:link {
 }
 #header::before{
     content: ' ';
-    background: url('img/sc.jpg') no-repeat fixed center center rgba(0,0,0,0.5);
+    background: url('../img/sc.jpg') no-repeat fixed center center rgba(0,0,0,0.5);
     background-size: cover;
     height: 100%;
     width: 100%;
