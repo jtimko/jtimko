@@ -1,5 +1,6 @@
 body {
     font-family: 'Permanent Marker', cursive;
+    overflow-x: hidden;
 }
 h2 {
     font-size: 1rem;
@@ -54,7 +55,11 @@ a:visited {
 }
 #jobs {
     background-color: #56BECC;
-    height: 300px;
+    min-height: 300px;
+}
+#mobileJobs {
+    background-color: #56BECC;
+    min-height: 350px;
 }
 #joblogo {
     height: 100px;
@@ -62,7 +67,7 @@ a:visited {
 }
 #work {
     background: #171717;
-    height: 650px;
+    min-height: 650px;
 }
 #lt {
     position: relative;
